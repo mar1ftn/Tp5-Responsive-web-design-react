@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../img/logo.png';
+import {Container, Col, Row} from 'reactstrap';
+
 
 class Header extends Component {
   render() {

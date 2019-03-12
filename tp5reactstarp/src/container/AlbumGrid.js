@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Album from '../component/Album';
+import {Container, Col, Row} from 'reactstrap';
+
 
 export default class AlbumGrid extends Component {
   render() {

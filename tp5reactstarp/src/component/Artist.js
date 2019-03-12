@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import artist from '../img/artist.png';
 import fbLogo from '../img/icon/fb.png';
 import twitterLogo from '../img/icon/twitter.png';
+import {Container, Col, Row} from 'reactstrap';
+
 
 export default class Artist extends Component {
   render() {

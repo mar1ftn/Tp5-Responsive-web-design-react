@@ -4,6 +4,8 @@ import SideMenu from './container/SideMenu';
 import Artist from './component/Artist';
 import AlbumGrid from './container/AlbumGrid';
 
+
+
 import './App.css';
 
 class App extends Component {
@@ -11,7 +13,9 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <div class="row">
         <SideMenu />
+        </div>
         <main>
           <Artist />
           <AlbumGrid />
