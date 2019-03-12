@@ -27,19 +27,25 @@ export default class Artist extends Component {
           </div>
         </div>
         <div class="stats-links">
-          <section class="stats">
+        <Row>
+          <Col lg="10" md="9" sm="12">
+          <section class=" stats">
             <span>2 Playlists</span>
             <span>4 Reviews</span>
             <span>6 Followers</span>
             <span>13 Following</span>
           </section>
-          <div class="links">
+          </Col>
+          <Col lg="2" md="3" sm="12">
+          <div class=" links">
             <div>
               <a href="#">Collection</a>
               <a href="#">History</a>
             </div>
           </div>
-        </div>
+          </Col>
+          </Row>
+          </div>
       </header>
     );
   }
